@@ -27,6 +27,6 @@ class String
   end
 
   def count_sentences
-  new_arr = self.split
+  new_arr = self.split(/.!?/)
   end
 end
